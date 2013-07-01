@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>raf playground</title>
+
+	<style>
+		html, body {
+			margin: 0;
+		}
+
+		#sketch {
+			position: relative;
+			margin: 0 auto;
+			width: 300px;
+			height: 400px;
+			background: #333;
+		}
+
+		.box {
+			position: absolute;
+			width: 30px;
+			height: 30px;
+			background: red;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+
+		#action {
+			display: block;
+			margin: 0 auto;
+			width: 100px;
+			height: 50px;
+		}
+	</style>
+
+	<script src="raf.min.js"></script>
+</head>
+<body>
+	<figure id="sketch">
+		<div class="box"></div>
+	</figure>
+
+	<button id="action">Start</button>
+
+	<script>
+		var rafId;
+		var boxEl = document.querySelector('.box'), x = 0, y = 0, dx = 1, dy = 1;
+
+		function loop() {
+			rafId = requestAnimationFrame(loop);
+
+			x += dx;
+			y += dy;
+
+			if (x == 0 || x == 300 - 30) {
+				dx = -dx;
+			}
+			if (y == 0 || y == 400 - 30) {
+				dy = -dy;
+			}
+
+			boxEl.style.left = x + 'px';
+			boxEl.style.top  = y + 'px';
+		}
+
+		var actionBtn = document.querySelector('#action');
+
+		actionBtn.addEventListener('click', function() {
+			if (!rafId) {
+				loop();
+				actionBtn.textContent = 'Stop';
+			}
+			else {
+				cancelRequestAnimationFrame(rafId);
+				rafId = null;
+				actionBtn.textContent = 'Start';
+			}
+		}, false);
+	</script>
+</body>
+</html>
