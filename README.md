@@ -1,7 +1,9 @@
 # raf.js <sup>0.0.1</sup>
 
-Yet another `requestAnimationFrame` polyfill.
-It is really tiny: **384 bytes minified** and 243 **gzipped** and is available on [bower](http://bower.io/).
+Yet another `requestAnimationFrame` polyfill:
+- really tiny: **384 bytes minified** and **243 gzipped**.
+- available on [bower](http://bower.io/).
+- available on [jamjs](http://jamjs.org/).
 
 ## Credits
 
