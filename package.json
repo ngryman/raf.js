@@ -1,0 +1,30 @@
+{
+	"name": "raf",
+	"version": "0.0.1",
+	"description": "Yet another requestAnimationFrame polyfill.",
+	"keywords": [
+		"raf",
+		"requestanimationframe",
+		"animation",
+		"polyfill"
+	],
+	"categories": [
+		"UI",
+		"Shims",
+		"Utilities"
+	],
+	"jam": {
+		"main": "raf.js",
+		"include": [
+			"raf.js",
+			"raf.min.js"
+		]
+	},
+	"main": "raf.js",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/ngryman/raf.js.git"
+	},
+	"author": "Nicolas Gryman",
+	"license": "MIT"
+}
