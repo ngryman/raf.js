@@ -9,7 +9,7 @@
  * Licensed under the MIT license.
  */
 
-!(function(window) {
+(function(window) {
 	var lastTime = 0,
 		vendors = ['webkit', 'moz'],
 		requestAnimationFrame = window.requestAnimationFrame,
@@ -17,7 +17,7 @@
 		i = vendors.length;
 
 	// try to un-prefix existing raf
-	while (--i >= 0) {
+	while (--i >= 0 && !requestAnimationFrame) {
 		requestAnimationFrame = window[vendors[i] + 'RequestAnimationFrame'];
 		cancelAnimationFrame = window[vendors[i] + 'CancelRequestAnimationFrame'];
 	}
