@@ -1,6 +1,6 @@
 {
 	"name": "raf.js",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"main": "raf.js",
 	"ignore": [
 		"test.html"
