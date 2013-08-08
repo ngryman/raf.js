@@ -10,7 +10,7 @@
  */
 
  (function (root, factory) {
-    if (typeof exports === 'object') {
+    if (typeof module === 'object') {
         var exports = {
             requestAnimationFrame: this.requestAnimationFrame,
             cancelAnimationFrame: this.cancelAnimationFrame
@@ -57,5 +57,5 @@
     }
 
     exports.requestAnimationFrame = requestAnimationFrame;
-    exports.cancelRequestAnimationFrame = cancelAnimationFrame;
+    exports.cancelAnimationFrame = cancelAnimationFrame;
 }));
