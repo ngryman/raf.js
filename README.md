@@ -1,9 +1,17 @@
-# raf.js <sup>0.0.2</sup>
+# raf.js <sup>0.0.3</sup>
 
 Yet another `requestAnimationFrame` polyfill:
-- really tiny: **383 bytes minified** and **244 gzipped**.
+- really tiny: **361 bytes minified** and **242gzipped**.
 - available on [bower](http://bower.io/).
 - available on [jamjs](http://jamjs.org/).
+
+## Release History
+
+```
+v0.0.3
+ - removed unecessary cast on `Date.now` (#1).
+ - export to `cancelAnimationFrame` instead of `cancelRequestAnimationFrame` (#2).
+```
 
 ## Credits
 
