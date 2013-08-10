@@ -21,6 +21,11 @@
 		]
 	},
 	"main": "raf.js",
+	"files": [
+		"raf.js",
+		"raf.min.js",
+		"README.md",
+	],
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/ngryman/raf.js.git"
