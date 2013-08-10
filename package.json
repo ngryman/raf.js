@@ -1,5 +1,5 @@
 {
-	"name": "raf",
+	"name": "raf.js",
 	"version": "0.0.3",
 	"description": "Yet another requestAnimationFrame polyfill.",
 	"keywords": [
@@ -24,7 +24,7 @@
 	"files": [
 		"raf.js",
 		"raf.min.js",
-		"README.md",
+		"README.md"
 	],
 	"repository": {
 		"type": "git",
