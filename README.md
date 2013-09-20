@@ -2,8 +2,12 @@
 
 Yet another `requestAnimationFrame` polyfill:
 - really tiny: **361 bytes minified** and **242gzipped**.
-- available on [bower](http://bower.io/).
-- available on [jamjs](http://jamjs.org/).
+
+## Install
+
+|Bower|Jam|npm|
+|-----|---|---|
+|`bower install raf.js`|`jam install raf`|`npm install raf.js`|
 
 ## Release History
 
