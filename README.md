@@ -1,7 +1,7 @@
 # raf.js <sup>0.0.3</sup>
 
 Yet another `requestAnimationFrame` polyfill:
-- really tiny: **361 bytes minified** and **242gzipped**.
+- really tiny: **361 bytes minified** and **242 gzipped**.
 
 ## Install
 
