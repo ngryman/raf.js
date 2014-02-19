@@ -1,4 +1,4 @@
-# raf.js <sup>0.0.3</sup>
+# raf.js [![Version](http://img.shields.io/badge/version-0.0.3-brightgreen.svg)](https://github.com/ngryman/jquery.finger#release-history) [![Size](http://img.shields.io/badge/size-0.25%20kB-blue.svg)](https://raw2.github.com/ngryman/raf.js/master/raf.min.js)
 
 Yet another `requestAnimationFrame` polyfill:
 - really tiny: **361 bytes minified** and **242 gzipped**.
