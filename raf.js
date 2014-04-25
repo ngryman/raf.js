@@ -26,7 +26,7 @@
 	// heavily inspired from @darius gist mod: https://gist.github.com/paulirish/1579671#comment-837945
 	if (!requestAnimationFrame || !cancelAnimationFrame) {
 		requestAnimationFrame = function(callback) {
-			var now = new Date().getTime(), nextTime = Math.max(lastTime + 16, now);
+			var now = +new Date(), nextTime = Math.max(lastTime + 16, now);
 			return setTimeout(function() {
 				callback(lastTime = nextTime);
 			}, nextTime - now);
