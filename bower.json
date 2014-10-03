@@ -2,6 +2,7 @@
 	"name": "raf.js",
 	"version": "0.0.4",
 	"main": "raf.js",
+	"main": ["raf.js"],
 	"ignore": [
 		"test.html"
 	]
