@@ -1,5 +1,7 @@
 # raf.js [![Version](http://img.shields.io/badge/version-0.0.4-brightgreen.svg)](https://github.com/ngryman/jquery.finger#release-history) [![Size](http://img.shields.io/badge/size-0.25%20kB-blue.svg)](https://raw2.github.com/ngryman/raf.js/master/raf.min.js)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ngryman/raf.js.svg)](https://greenkeeper.io/)
+
 Yet another `requestAnimationFrame` polyfill:
 - really tiny: **360 bytes minified** and **231 gzipped**.
 
